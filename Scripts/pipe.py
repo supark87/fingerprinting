@@ -5,7 +5,7 @@ def code0():
 def code1():
      import getsequences
 def code2():
-     import muscle_raxml
+     import muscle
 def code3():
      import getstats
 def code4():
