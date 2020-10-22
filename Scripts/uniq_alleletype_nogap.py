@@ -21,7 +21,7 @@ for file in os.listdir(base_dir):
 command="mv *_uniq.fasta ./allele_subtype/"
 os.system(command)
 
-os.chdir("./allele_subtype/")
-command="for file in *.fasta;do more $file| sed 's/-//g'> $(basename $file)_nogap2.fasta; done"     
-os.system(command)
+# os.chdir("./allele_subtype/")
+# command="for file in *.fasta;do more $file| sed 's/-//g'> $(basename $file)_nogap2.fasta; done"     
+# os.system(command)
 
